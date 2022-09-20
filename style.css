@@ -1,230 +1,82 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-body{
-
-}
-main{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-/* header start */
 header{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+img{
+    width: 100%;
+}
+.nav{
     display: flex;
-    box-shadow:  0 0 10px black;
-    margin-top: 10px;
-}
-.logo{
-    flex: 25%;
-    padding: 0 10px;
-}
-.logo h1{
-    font-size: 50px;
-}
-.logo span {
-    color: #08477a;
-    font-size: 70px;
-    font-family: sans-serif;
-}
-.nve{
-    flex: 50%;
-
-}
-.nve ul{
+    width: 100%;
     list-style-type: none;
+    border-bottom: 5px solid #08377a;
+}
+.logo img{
+    flex: 30%;
+    height: 150px;
+    width: 100%;
+}
+.left{
+    flex: 50%;
+    width: 100%;
+}
+.left ul{
     display: flex;
-    justify-content: flex-end;
+    list-style-type: none;
+    justify-content: end;
+    padding: 45px;  
     
-
 }
-.nve ul li{
-    padding: 30px;
+.left ul li{
     font-size: 30px;
+    padding: 15px;
+    margin-right: 0px;
 }
-.nve ul li a{
+.left ul li a{
+    color: #08377a;
     text-decoration: none;
-    color: #08477a;
-
 }
-.button{
-    flex: 25%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 30px 0;
+.right{
+    flex: 20%;
    
 }
-.button a{
-    text-decoration: none;
+button{
+    background-color: #08377a;
+    padding: 15px;
+    color: aliceblue;
     font-size: 30px;
-    color: aliceblue;
-    width: 175px;
-    height: 40px;
-    background-color: #08477a;
-    text-align: center;
-    border-radius: 35px;
-
-
-    
+    width: 100%;
+    margin-top: 40px;
 }
-/* header end */
-
-/* section-one start */
+.one{
+    display: flex;
+    border-bottom: 3px #08377a solid;
+}
 .section-one{
-    display: flex;
-}
-.section-one .img{
-
-}
-.section-one .img img{
-    width: 700px;
-    height: 600px;
-    margin: 5px 0;
-
-}
-.section-one .pp{
-    
-}
-.section-one .pp h1{
-    font-size: 125px;
-    margin: 10px;
-    color: #08477a;
-}
-.section-one .pp p{
-    font-size: 50px;
-}
-/* section-one end */
-
-/* section-two start */
-.section-two{
-    display: flex;
-    flex-flow: row wrap;
-    
-}
-.section-two-sub{
-    width: 23%;
-    border: 5px #08477a solid;
-    margin: 7px;
-}
-
-.section-two-sub img{
-    height: 200px;
-    display: block;
-    margin: auto;
-    width: 100%;
-}
-.section-two-sub .com h1{
-    color: #08477a;
+    flex: 30%;
     font-size: 40px;
-    margin: 10px;
-}
-.section-two-sub .com p{
-    font-family: sans-serif;
-    font-style: italic;
-    margin: 10px;
-}
-.section-two-sub button{
-    font-size: 25px;
-    background-color: #08477a;
-    color: aliceblue;
-    border-radius: 35px;
-}
-.section-two-sub button:hover{
-    background-color: aqua;
-}
-/* section-three end */
-.gallery{
-    height: 300px;
-    background-color: #08477a;
-    margin: 100px 0;
-    
-}
-.gallery h1{
-    text-align: center;
-    padding: 130px;
-    font-size: 50px;
+    padding: 0px 10px;
+    background-color: #08377a;
     color: aliceblue;
 }
-/* section-three start */
-.section-three{
-    display: flex;
-    margin: 5px;
-}
-.section-three .img{
-    width: 20%;
-    margin: 7px;
-}
-.section-three img{
-    height: 200px;
-    border-radius: 0 50% 0 0;
-    display: block;
-    margin: auto;
-    width: 100%;
-}
-/* section-three end  */
-
-/* footer start */
-.footer-section{
-    background-color: #08477a;
-    border-bottom: 20px;
-}
-.footer{
-    margin: 100px 0 10px;
-    padding: 50px 10px;
-    display: flex;
-    list-style-type: none;
-    border-bottom: 2px solid white;
-}
-.footer .single-footer{
-    flex: 25%;
-
-} h4{
-    font-size: 20px;
-    color: aliceblue;
-    margin: 0 10px;
-}
-.footer .single-footer p{
-    color: aliceblue;
-    font-style: italic;
-    text-decoration: none;
-    text-align: justify;
-    margin: 0 10px;
-}
-.footer .single-footer .footer-social{
-    margin: 5px;
-}
-.footer .single-footer .footer-social a{
-    text-decoration: none;
-}
-.footer .single-footer .footer-social i{
+.section-two{
+    flex: 35%;
     padding: 10px;
-    color: aliceblue;
-    font-size: 35px;
-    
-    
+    border-right: 3px #08377a solid;
+
 }
-.single-footer ul{
+h1, h2, h3{
+    color: #08377a;
+}
+.section-three{
+    flex: 35%;
     list-style-type: none;
+    padding: 10px;
 }
-.single-footer ul i{
-    margin: 0 10px;
-}
-.single-footer ul li{
-    
-}
-.single-footer ul li a{
-    color: aliceblue;
+.section-three a{
     text-decoration: none;
-
 }
-.copy p{
-    text-align: center;
-    color: aliceblue;
-    padding: 40px;
-    font-size: 25px;
-}
-
-
-
-/* footer start */
